@@ -16,6 +16,12 @@ class UsersController < ApplicationController
     end
   end
   
+#  def show
+#    @user = User.find(params[:id])
+#    @pagy, @tasks = pagy(@user.tasks.order(id: :desc))
+#    counts(@user)
+#  end
+  
   private
   
   def user_params
